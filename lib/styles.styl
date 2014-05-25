@@ -1,0 +1,27 @@
+/**
+ * Module dependencies
+ */
+
+@require './variables'
+
+/**
+ * Apply `a` default styles.
+ */
+
+a
+  color a--color
+  text-decoration none
+
+  &:hover
+  &:focus
+    color a--hover-color
+    text-decoration underline
+
+  // address `outline` inconsistency between Chrome and other browsers
+  &:focus
+    outline thin dotted
+
+  // improve readability when focused and also mouse hovered in all browsers
+  &:active
+  &:hover
+    outline 0
