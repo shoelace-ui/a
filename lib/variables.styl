@@ -2,5 +2,6 @@
  * Define `a` variables.
  */
 
-a--color       ?= lookup('brand--primary') or blue
-a--hover-color ?= lighten(a--color, 10%)
+a--color         ?= lookup('brand--primary') or blue
+a--hover-color   ?= lighten(a--color, 15%)
+a--visited-color ?= desaturate(a--color, 15%)
