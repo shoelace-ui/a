@@ -7,3 +7,7 @@ Default `a` styles.
 ```stylus
 @require 'a'
 ```
+
+## License
+
+MIT
