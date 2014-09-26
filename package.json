@@ -1,6 +1,6 @@
 {
   "name": "shoelace-ui-a",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Default `a` styles",
   "repository": "https://github.com/shoelace-ui/a.git",
   "keywords": ["shoelace", "a", "anchor", "link"],
