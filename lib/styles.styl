@@ -14,11 +14,13 @@ a
 
   &:hover
   &:focus
-    color a--hover-color
+    if a--hover-color isnt inherit
+      color a--hover-color
     text-decoration underline
 
-  &:visited
-    color a--visited-color
+  if a--visited-color isnt inherit
+    &:visited
+      color a--visited-color
 
   // address `outline` inconsistency between Chrome and other browsers
   &:focus
